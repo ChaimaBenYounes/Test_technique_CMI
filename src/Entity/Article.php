@@ -30,7 +30,7 @@ class Article
     private $content;
 
     /**
-     * @ORM\Column(type="datetime_immutable")
+     * @ORM\Column(type="datetime", nullable=true )
      */
     private $publishedAt;
 
